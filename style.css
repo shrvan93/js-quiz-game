@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to left, blue, red);
+    color: white;
+}
+h1{
+    margin-top: 10%;
+}
+h1,
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div{
+    margin-top: 20%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, blue, red);
+}
+label {
+    background-color: rgb(3, 35, 25);
+}
+
+button {
+    font-weight: bold;
+    width: 10%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s ease all;
+}
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* button {
+    margin-top: 20%;
+    text-align: center;
+} */
