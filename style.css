@@ -25,9 +25,7 @@ div{
     flex-direction: column;
     background: linear-gradient(to right, blue, red);
 }
-label {
-    background-color: rgb(3, 35, 25);
-}
+
 
 button {
     font-weight: bold;
